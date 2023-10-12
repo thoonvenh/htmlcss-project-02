@@ -424,3 +424,82 @@ a {
     opacity: 1;
     background: var(--primary-color);
 }
+
+/* Feedback */
+
+.feedback {
+    margin-top: 135px;
+    padding: 96px 0;
+    background: #2e2100;
+}
+
+.feedback .feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
+.feedback-item {
+    display: flex;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.feedback-item .info {
+    width: 159px;
+    height: 188px;
+}
+
+.feedback-item .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback-item .info .name {
+    padding-top: 18px;
+    color: #f7f7f7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.41;
+}
+
+.feedback-item .info .desc {
+    padding-top: 4px;
+    font-size: 1.4rem;
+    line-height: 1.85;
+}
+.feedback-item .dots {
+    display: flex;
+    gap: 6px;
+    padding-top: 28px;
+}
+
+.feedback-item .dots .dot {
+    width: 6px;
+    height: 6px;
+    background: #634700;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.feedback-item .dots .dot.active {
+    background: #ffb900;
+    cursor: default;
+}
+
+.feedback-item .content {
+    margin-left: auto;
+    width: 66%;
+}
+
+.feedback-item blockquote {
+    padding-left: 30px;
+    width: 740px;
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.54;
+}
