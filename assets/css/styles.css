@@ -661,6 +661,10 @@ a {
     line-height: 1.75;
 }
 
+.our-blog-item .info .cta-btn {
+    margin-top: 12px;
+}
+
 .our-blog-item .info .cta-btn:hover {
     background: #ffb900;
     color: #fff;
