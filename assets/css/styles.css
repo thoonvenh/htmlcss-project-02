@@ -68,6 +68,13 @@ a {
     line-height: 1.26;
 }
 
+.heading.lv3 {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
 .desc {
     color: #5f5b53;
     font-size: 1.8rem;
@@ -689,4 +696,91 @@ a {
 .our-blog .body .dot.active {
     background: #ffb900;
     cursor: default;
+}
+
+/* Footer */
+
+.footer {
+    padding-top: 96px;
+    background: #2e2100;
+}
+
+.footer .row {
+    display: flex;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+}
+
+.footer .row .column {
+    width: 21.6%;
+}
+
+.footer .row .column:nth-child(1) {
+    width: 35%;
+}
+
+.footer .desc {
+    max-width: 267px;
+}
+
+.footer .row .column:nth-child(4) .list {
+    max-width: 231px;
+}
+
+.footer .column .desc {
+    margin-top: 18px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    line-height: 1.86;
+}
+
+.footer .social {
+    margin-top: 18px;
+    display: flex;
+    gap: 18px;
+}
+
+.footer .title {
+    display: inline-block;
+    padding: 0 48px 14px 0;
+    border-bottom: 1px solid #59554b;
+    position: relative;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.footer .column .list {
+    margin-top: 28px;
+}
+
+.footer .column .list a,
+.footer .column .list .item-1 {
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    line-height: 1.86;
+}
+
+.footer .column .list a,
+.footer .column .list .item-1 {
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.footer .list li:last-child a {
+    margin-bottom: 0;
+}
+
+.footer .list .item-1 strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer .copyright {
+    padding: 28px 0;
+    color: #807d74;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.86;
 }
